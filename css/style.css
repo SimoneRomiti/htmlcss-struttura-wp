@@ -84,31 +84,29 @@ aside.right .middle{
 }
 
 footer{
-  height: 15vh;
+  height: 16vh;
   width: 100%;
   background: #6C629C;
   border: 1px solid black;
   text-align: center;
   margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 footer .credits{
   height: 4vh;
-  text-align: center;
   line-height: calc(4vh - 1px);
-  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 .social{
-  height: calc(11vh - 2px);
+  height: calc(12vh - 1px);
   display: inline-block;
   margin: 0 100px;
 }
 
 .social i{
-  font-size: 20px;
-  height: 100%;
-  line-height: calc(11vh - 2px);
-
+  font-size: 50px;
+  line-height: calc(12vh - 2px);
 }
