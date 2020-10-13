@@ -50,12 +50,14 @@ main::after{
 
 main aside.left{
   width: 20%;
-  background: #211C25;
+  /* background: #211C25; */
+  background: #32624F;
 }
 
 section{
   width: 56%;
-  background: #32624F;
+  background: #211C25;
+  /* background: #32624F; */
   margin: 0 2%;
 }
 
@@ -65,7 +67,8 @@ main aside.right{
 
 aside.right .box{
   width: 100%;
-  background: #211C25;;
+  /* background: #211C25; */
+  background: #32624F;
 }
 
 aside.right .middle{
