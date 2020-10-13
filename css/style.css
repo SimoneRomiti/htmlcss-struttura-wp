@@ -5,6 +5,10 @@
 }
 
 body{
+  background: #433842;
+}
+
+.container{
   width: 75vw;
   margin: auto;
 }
@@ -18,18 +22,20 @@ header{
 header .title{
   width: 100%;
   height: 75%;
-  background: yellow;
+  background: #3474A3;
 }
 
 header nav{
   width: 100%;
   height: 25%;
-  background: orange;
+  background: #BADAEA;
 }
 
 main{
   margin: 20px 0;
-  background: lightgrey;
+  background: #8F8B93;
+  color: white;
+  border: 1px solid black;
 }
 
 main::after{
@@ -44,12 +50,12 @@ main::after{
 
 main aside.left{
   width: 20%;
-  background: lightpink;
+  background: #211C25;
 }
 
 section{
   width: 56%;
-  background: violet;
+  background: #32624F;
   margin: 0 2%;
 }
 
@@ -57,17 +63,18 @@ main aside.right{
   width: 20%;
 }
 
-aside.right .first{
-  margin-bottom: 20px;
-  background: lightpink;
+aside.right .box{
+  width: 100%;
+  background: #211C25;;
 }
 
-aside.right .second{
-  background: lightpink;
+aside.right .middle{
+  margin: 20px 0;
 }
 
 footer{
   height: 100px;
   width: 100%;
-  background: lightgreen;
+  background: #6C629C;
+  border: 1px solid black;
 }
