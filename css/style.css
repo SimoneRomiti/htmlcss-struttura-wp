@@ -15,20 +15,31 @@ body{
 
 header{
   width: 100%;
-  height: 150px;
+  height: 20vh;
   border: 1px solid black;
 }
 
 header .title{
   width: 100%;
-  height: 75%;
+  height: calc(15vh - 1px);
+  line-height: calc(15vh - 1px);
+  text-align: center;
+  color: white;
   background: #3474A3;
 }
 
 header nav{
   width: 100%;
-  height: 25%;
+  height: calc(5vh - 1px);
+  padding: 0 10px;
   background: #BADAEA;
+  text-align: center;
+}
+
+nav .content{
+  display: inline-block;
+  margin: 0 10px;
+  line-height: calc(5vh - 1px);
 }
 
 main{
@@ -50,14 +61,12 @@ main::after{
 
 main aside.left{
   width: 20%;
-  /* background: #211C25; */
   background: #32624F;
 }
 
 section{
   width: 56%;
   background: #211C25;
-  /* background: #32624F; */
   margin: 0 2%;
 }
 
@@ -67,7 +76,6 @@ main aside.right{
 
 aside.right .box{
   width: 100%;
-  /* background: #211C25; */
   background: #32624F;
 }
 
@@ -76,8 +84,31 @@ aside.right .middle{
 }
 
 footer{
-  height: 100px;
+  height: 15vh;
   width: 100%;
   background: #6C629C;
   border: 1px solid black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+footer .credits{
+  height: 4vh;
+  text-align: center;
+  line-height: calc(4vh - 1px);
+  color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.social{
+  height: calc(11vh - 2px);
+  display: inline-block;
+  margin: 0 100px;
+}
+
+.social i{
+  font-size: 20px;
+  height: 100%;
+  line-height: calc(11vh - 2px);
+
 }
