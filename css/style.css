@@ -38,7 +38,7 @@ header nav{
 
 nav .content{
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 20px;
   line-height: calc(5vh - 1px);
 }
 
@@ -87,26 +87,22 @@ footer{
   height: 16vh;
   width: 100%;
   background: #6C629C;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
-  margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.4);
 }
 
 footer .credits{
   height: 4vh;
-  line-height: calc(4vh - 1px);
+  line-height: 4vh;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
 .social{
-  height: calc(12vh - 1px);
   display: inline-block;
-  margin: 0 100px;
-}
-
-.social i{
+  height: 12vh;
+  line-height: 12vh;
   font-size: 50px;
-  line-height: calc(12vh - 2px);
+  margin: 0 100px;
 }
