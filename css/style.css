@@ -16,13 +16,13 @@ body{
 header{
   width: 100%;
   height: 20vh;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 header .title{
   width: 100%;
-  height: calc(15vh - 1px);
-  line-height: calc(15vh - 1px);
+  height: 15vh;
+  line-height: 15vh;
   text-align: center;
   color: white;
   background: #3474A3;
@@ -30,7 +30,7 @@ header .title{
 
 header nav{
   width: 100%;
-  height: calc(5vh - 1px);
+  height: 5vh;
   padding: 0 10px;
   background: #BADAEA;
   text-align: center;
@@ -39,14 +39,14 @@ header nav{
 nav .content{
   display: inline-block;
   margin: 0 20px;
-  line-height: calc(5vh - 1px);
+  line-height: 5vh;
 }
 
 main{
   margin: 20px 0;
   background: #8F8B93;
   color: white;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 main::after{
@@ -101,14 +101,17 @@ footer > .credits{
 footer > .icons{
   height: 12vh;
   line-height: 12vh;
-  text-align: center;
+}
+
+.icons::after{
+  clear: both;
+  content: '';
+  display: table;
 }
 
 .icons > .social{
-  display: inline-block;
+  width: 33.33%;
+  float: left;
+  text-align: center;
   font-size: 50px;
-}
-
-.social.center{
-  margin: 0 200px;
 }
