@@ -79,7 +79,7 @@ aside.right .box{
   background: #32624F;
 }
 
-aside.right .middle{
+aside.right .box.middle{
   margin: 20px 0;
 }
 
@@ -88,21 +88,27 @@ footer{
   width: 100%;
   background: #6C629C;
   /* border: 1px solid black; */
-  text-align: center;
   color: rgba(0, 0, 0, 0.4);
 }
 
-footer .credits{
+footer > .credits{
   height: 4vh;
   line-height: 4vh;
   text-align: center;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
 }
 
-.social{
-  display: inline-block;
+footer > .icons{
   height: 12vh;
   line-height: 12vh;
+  text-align: center;
+}
+
+.icons > .social{
+  display: inline-block;
   font-size: 50px;
-  margin: 0 100px;
+}
+
+.social.center{
+  margin: 0 200px;
 }
